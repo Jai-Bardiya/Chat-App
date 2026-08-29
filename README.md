@@ -55,7 +55,7 @@ A modern real-time chat application built with the MERN Stack and Socket.io.
 # 📸 Application
 
 <p align="center">
-  <img src="./chat_frame(2).png" alt="Chatty Screenshot" width="100%">
+  <img src="./chat_frame.png" alt="Chatty Screenshot" width="100%">
 </p>
 
 ---

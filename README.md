@@ -5,17 +5,22 @@
 <h1 align="center">💬 Chatty</h1>
 
 <p align="center">
-A modern real-time chat application built with the MERN Stack, Socket.io and MongoDB.
+A modern real-time chat application built with the MERN Stack, Socket.io, and MongoDB.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
+  <img src="https://img.shields.io/github/license/Jai-Bardiya/Chat-App">
+  <img src="https://img.shields.io/github/stars/Jai-Bardiya/Chat-App?style=social">
+  <img src="https://img.shields.io/github/forks/Jai-Bardiya/Chat-App?style=social">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white">
   <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white">
   <img src="https://img.shields.io/badge/Express-000000?logo=express">
   <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white">
   <img src="https://img.shields.io/badge/Socket.io-010101?logo=socket.io">
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white">
-  <img src="https://img.shields.io/badge/JWT-Authentication-orange">
 </p>
 
 ---
@@ -29,7 +34,7 @@ A modern real-time chat application built with the MERN Stack, Socket.io and Mon
 - 🖼️ Image Sharing
 - ⚡ Socket.io Communication
 - 📱 Responsive Design
-- 🎨 Clean & Modern UI
+- 🎨 Clean & Minimal UI
 
 ---
 
@@ -52,26 +57,18 @@ A modern real-time chat application built with the MERN Stack, Socket.io and Mon
 
 ---
 
-## 🎥 Demo Video
+# 🎥 Demo
 
 <p align="center">
-  <a href="https://github.com/Jai-Bardiya/Chat-App/blob/main/chatty-compressed.mp4">
-    <img src="./chat_frame.png" alt="Watch Demo" width="100%">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Jai-Bardiya/Chat-App/blob/main/chatty-compressed.mp4">
-    ▶ Click here to watch the demo video
-  </a>
+  <img src="./demo.gif" alt="Demo" width="100%">
 </p>
 
 ---
 
-## 📸 Screenshot
+# 📸 Screenshot
 
 <p align="center">
-  <img src="./chat_frame.png" alt="Chatty Screenshot" width="100%">
+  <img src="./chat_frame.png" alt="Application Screenshot" width="100%">
 </p>
 
 ---
@@ -87,8 +84,6 @@ npm install
 ---
 
 ## ⚙️ Environment Variables
-
-Create a `.env` file.
 
 ```env
 MONGODB_URI=your_mongodb_uri
@@ -122,6 +117,47 @@ npm run dev
 ```bash
 docker-compose up --build
 ```
+
+---
+
+## 📂 Project Structure
+
+```text
+Chat-App
+├── backend
+├── frontend
+├── k8s
+├── docker-compose.yml
+├── package.json
+└── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository.
+2. Create your feature branch.
+
+```bash
+git checkout -b feature/my-feature
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add my feature"
+```
+
+4. Push the branch.
+
+```bash
+git push origin feature/my-feature
+```
+
+5. Open a Pull Request.
 
 ---
 
